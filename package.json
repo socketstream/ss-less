@@ -1,0 +1,17 @@
+{
+  "author": "Owen Barnes <owen@socketstream.org>",
+  "name": "ss-stylus",
+  "description": "Stylus wrapper for SocketStream",
+  "version": "0.21.2",
+  "main": "./lib/wrapper.js",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "stylus": "~> 0.21.2"
+  },
+  "devDependencies": {}
+}
