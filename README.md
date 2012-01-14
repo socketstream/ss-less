@@ -1,5 +1,6 @@
 # Stylus formatter wrapper for SocketStream 0.3
 
-Support Stylus code in your SocketStream project by simply adding this wrapper to your project:
+Support .stylus code in your SocketStream project by adding 'ss-stylus' to your package.json file and adding this line to app.js:
+
 
     ss.client.formatters.add(require('ss-stylus'));
