@@ -1,5 +1,10 @@
-# Stylus formatter wrapper for SocketStream 0.3
+# Less (CSS) wrapper for SocketStream 0.3
 
-Support Stylus code in your SocketStream project by simply adding this wrapper to your project:
+Allows you to use Stylus files (.less) in your SocketStream project.
 
-    ss.client.formatters.add(require('ss-stylus'));
+
+### Instructions
+
+Add `ss-less` to your application's `package.json` file and then add this line to app.js:
+
+    ss.client.formatters.add(require('ss-less'));
