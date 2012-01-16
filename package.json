@@ -5,13 +5,13 @@
   "version": "0.1.0",
   "main": "./lib/wrapper.js",
   "repository": {
-    "url": ""
+    "url": "https://github.com/socketstream/ss-less"
   },
   "engines": {
     "node": ">= 0.6.0"
   },
   "dependencies": {
-    "less": "~> 1.2.0"
+    "less": "1.2.x"
   },
   "devDependencies": {}
 }
