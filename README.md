@@ -18,5 +18,5 @@ The `ss-less` wrapper allows you to inject JavaScript variables into your Less c
 	var ssLess = require('ss-less');
 	var assetsPath = 'https://s3.amazonaws.com/example_assets_path/';
 	...
-	ssLess.prependLess('$assetsPath = \'' + assetsPath + '\'');
+	ssLess.prependLess('@assets-path: "' + assetsPath + '"');
 	ss.client.formatters.add(ssLess);
