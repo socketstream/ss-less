@@ -10,3 +10,13 @@ Add `ss-less` to your application's `package.json` file and then add this line t
 ```javascript
 ss.client.formatters.add(require('ss-less'));
 ```
+
+### JavaScript variable injection
+
+The `ss-less` wrapper allows you to inject JavaScript variables into your Less code via a prepended Less string of your own making. For example:
+
+	var ssLess = require('ss-less');
+	var assetsPath = 'https://s3.amazonaws.com/example_assets_path/';
+	...
+	ssLess.prependLess('@assets-path: "' + assetsPath + '"');
+	ss.client.formatters.add(ssLess);
