@@ -1,15 +1,15 @@
 {
   "name": "ss-less",
-  "author": "Owen Barnes <owen@socketstream.org>",
+  "author": "Paul Jensen <paul@socketstream.com>",
   "description": "Less (CSS) wrapper for SocketStream 0.3",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./lib/wrapper.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/socketstream/ss-less"
   },
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">= 0.10.0"
   },
   "dependencies": {
     "less": "1.7.x"
